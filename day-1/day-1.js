@@ -11,11 +11,19 @@ convertStringToArray(puzzleInput);
 
 function fuelRequired(modules) {
   //create variable to track total fuel needed
+  let totalFuelNeeded = 0;
 
   // loop over modules array
     // calculate fuel required to launch each module in the array based on it's mass
     // solution will be mass / 3 rounded down - 2
+    let individualFuel = Math.floor(modules / 3) - 2;
     // add fuel for each module to the variable tracking total fuel needed
 
   // return total fuel needed
+  return individualFuel;
 }
+
+console.log(fuelRequired(12));
+console.log(fuelRequired(14));
+console.log(fuelRequired(1969));
+console.log(fuelRequired(100756));
