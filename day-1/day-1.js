@@ -21,6 +21,7 @@ function fuelRequired(modules) {
     // add fuel for each module to the variable tracking total fuel needed
     totalFuelNeeded += individualFuel;
 
+    // calculates fuel required to carry the mass of the added fuel
     while (individualFuel > 6) {
       individualFuel = Math.floor(individualFuel / 3) - 2;
       // add fuel for each module to the variable tracking total fuel needed
