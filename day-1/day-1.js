@@ -20,6 +20,12 @@ function fuelRequired(modules) {
     let individualFuel = Math.floor(modulesArray[i] / 3) - 2;
     // add fuel for each module to the variable tracking total fuel needed
     totalFuelNeeded += individualFuel;
+
+    while (individualFuel > 6) {
+      individualFuel = Math.floor(individualFuel / 3) - 2;
+      // add fuel for each module to the variable tracking total fuel needed
+      totalFuelNeeded += individualFuel; 
+    }   
   }
 
   // returns total fuel needed
