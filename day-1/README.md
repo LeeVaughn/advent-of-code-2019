@@ -37,3 +37,7 @@ For example:
 - The fuel required by a module of mass 100756 and its fuel is: 33583 + 11192 + 3728 + 1240 + 411 + 135 + 43 + 12 + 2 = 50346.
 
 What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking into account the mass of the added fuel? (Calculate the fuel requirements for each module separately, then add them all up at the end.)
+
+<mark>4892166 is the right answer! You are one gold star closer to rescuing Santa.
+
+You have completed Day 1!
